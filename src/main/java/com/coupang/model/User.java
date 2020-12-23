@@ -13,7 +13,6 @@ import javax.persistence.Id;
 @Entity
 public class User {
     @Id
-
     @Column(length = 20, nullable = false)
     private String userId;
 
